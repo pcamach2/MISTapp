@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Implementation-Title: MIST_StandAlone
+Implementation-Version: 1.0
+Permissions: sandbox
+JavaFX-Feature-Proxy: None
+JavaFX-Version: 8.0
+Class-Path: mistApp.jar libs/controlsfx-8.40.10.jar libs/jidefx-common
+ -b128-javadoc.jar libs/jidefx-common-b128-sources.jar libs/jidefx-com
+ mon-b128.jar libs/jidefx-comparators-b128-javadoc.jar libs/jidefx-com
+ parators-b128-sources.jar libs/jidefx-comparators-b128.jar libs/jidef
+ x-converters-b128-javadoc.jar libs/jidefx-converters-b128-sources.jar
+  libs/jidefx-converters-b128.jar libs/jidefx-decoration-b128-javadoc.
+ jar libs/jidefx-decoration-b128-sources.jar libs/jidefx-decoration-b1
+ 28.jar libs/jidefx-fields-b128-javadoc.jar libs/jidefx-fields-b128-so
+ urces.jar libs/jidefx-fields-b128.jar libs/jidefx-validation-b128-jav
+ adoc.jar libs/jidefx-validation-b128-sources.jar libs/jidefx-validati
+ on-b128.jar
+Created-By: JavaFX Packager
+Main-Class: App.MainMISTApp

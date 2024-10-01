@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: MIST_StandAlone
+Implementation-Version: 1.0
+Permissions: sandbox
+JavaFX-Feature-Proxy: None
+JavaFX-Version: 8.0
+Class-Path: mistApp.jar
+Created-By: JavaFX Packager
+Main-Class: App.MainMISTApp
