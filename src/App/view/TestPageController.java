@@ -1319,7 +1319,7 @@ public class TestPageController {
         this.gettingTotalFeedback = true;
         if (this.trialCount >= this.mainApp.getTestMath().getNumberOfTrials()) {
             if (this.mainApp.testnum == 1) {
-                JOptionPane.showMessageDialog(null, "Test has been paused by the experimenter", "Attention", 1);
+                // JOptionPane.showMessageDialog(null, "Test has been paused by the experimenter", "Attention", 1);
                 System.exit(1);
             } else {
                 this.mainApp.showEndPage();
