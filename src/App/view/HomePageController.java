@@ -21,6 +21,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javax.swing.JOptionPane;
+import javafx.application.Platform;
 
 public class HomePageController {
     @FXML
@@ -112,4 +113,10 @@ public class HomePageController {
     public void OnBtnAction(ActionEvent var1) {
         this.mainApp.showPreTestPage();
     }
+    
+    @FXML
+    public void initialize() {
+        // Automatically trigger the OnBtnAction method
+        Platform.runLater(() -> OnBtnAction(new ActionEvent()));
+    }  
 }
