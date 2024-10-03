@@ -16,7 +16,7 @@
 
 <AnchorPane fx:id="preTestPane" focusTraversable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onKeyReleased="#OnEnterPressed" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.view.PreTestPageController">
    <children>
-      <Label fx:id="lblStartInstruc" alignment="CENTER" layoutX="121.0" layoutY="179.0" prefHeight="227.0" prefWidth="558.0" text="PRESS ENTER TO START">
+      <Label fx:id="lblStartInstruc" alignment="CENTER" layoutX="121.0" layoutY="179.0" prefHeight="227.0" prefWidth="558.0" text="Waiting for scanner">
          <font>
             <Font name="System Bold" size="45.0" />
          </font>
